@@ -2,7 +2,7 @@ import scala.concurrent._
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.util.{Failure, Success}
 
-object Futures extends App {
+object Futures2 extends App {
 
   val fut1 = future {
     var sum = 0

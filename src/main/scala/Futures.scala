@@ -19,7 +19,7 @@ object Futures extends App {
   } recoverWith {
     case _ => future {
       doCount(11, 5)
-      throw new RuntimeException("error recoverWith 1")
+//      throw new RuntimeException("error recoverWith 1")
       11
     }
   }
@@ -60,8 +60,7 @@ object Futures extends App {
 //    case Failure(e) => println(s"esec $e")
 //  }
 
-
-
+  println("before awating")
+  Await.ready(r, 25 seconds)
   println("end")
-  Await.ready(r, 15 seconds)
 }
