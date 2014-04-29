@@ -1,0 +1,32 @@
+# Project
+target/
+doc/
+bin/
+logs/
+lib/
+tmp/
+
+# Miscellaneous
+project/project
+project/target
+.target
+.history
+dist
+/out
+/RUNNING_PID
+
+# Eclipse
+.cache
+.classpath
+.project
+.settings
+
+# IntelliJ IDEA
+project/debasion-web-build.iml
+/.idea
+/*.iml
+/.idea_modules
+
+# vim and other editors
+*.swp
+*~
